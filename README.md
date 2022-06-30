@@ -17,7 +17,7 @@
  response: {id: "id"}<br>
  Content-Type: application/json<br>
 
-### /taskas/status:/id
+### /taskas/status/:id
   
    Method: GET <br>
    status: 200 on success, 404 on not found, 500 on failure <br>
