@@ -1,0 +1,24 @@
+{
+  "name": "coding-test",
+  "version": "1.0.0",
+  "description": "coding test for Konekt",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon sever.js",
+    "test": "jest"
+  },
+  "author": "Jonas Andersen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2",
+    "supertest": "^6.2.3",
+    "nodemon": "^2.0.18"
+  }
+}
