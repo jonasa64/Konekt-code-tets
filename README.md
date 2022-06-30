@@ -12,14 +12,14 @@
 
 ### /tasks/start
 
- Method: GET
- status: 200 on success 500 on failure
- response: {id: "id"}
- Content-Type: application/json
+ Method: GET <br>
+ status: 200 on success 500 on failure<br>
+ response: {id: "id"}<br>
+ Content-Type: application/json<br>
 
 ### /taskas/status:/id
   
-   Method: GET
-   status: 200 on success, 404 on not found, 500 on failure
-   response: {id: "id", status: "status"}
-   Content-Type: application/json
+   Method: GET <br>
+   status: 200 on success, 404 on not found, 500 on failure <br>
+   response: {id: "id", status: "status"} <br>
+   Content-Type: application/json <br>
